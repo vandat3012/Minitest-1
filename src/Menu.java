@@ -16,10 +16,10 @@ public class Menu {
 
             if (user && password) {
                 System.out.println("Menu");
-                System.out.println("1. Draw the rectangle");
-                System.out.println("2. Draw the square");
-                System.out.println("3. Draw the isosceles triangle");
                 System.out.println("0. Exit");
+                System.out.println("1. Draw rectangle");
+                System.out.println("2. Draw square");
+                System.out.println("3. Draw isosceles triangle");
                 System.out.println("enter your choice: ");
                 int choice = scanner.nextInt();
 
